@@ -1,0 +1,29 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix w3i: <https://w3id.org/>.
+
+w3i:
+    a skos:ConceptScheme;
+    dct:description "My wonderful vocabulary."@en;
+    dct:title "Test"@en;
+    skos:hasTopConcept w3i:51115 .
+w3i:51115
+    a skos:Concept;
+    skos:narrower w3i:70a6c, w3i:eea19, w3i:eedb5;
+    skos:prefLabel "Family"@en;
+    skos:topConceptOf w3i: .
+w3i:70a6c
+    a skos:Concept;
+    skos:broader w3i:51115;
+    skos:inScheme w3i:;
+    skos:prefLabel "Mother"@en.
+w3i:eea19
+    a skos:Concept;
+    skos:broader w3i:51115;
+    skos:inScheme w3i:;
+    skos:prefLabel "Child"@en.
+w3i:eedb5
+    a skos:Concept;
+    skos:broader w3i:51115;
+    skos:inScheme w3i:;
+    skos:prefLabel "Father"@en.
