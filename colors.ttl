@@ -6,7 +6,7 @@
 colour: a skos:ConceptScheme ;
     dct:title "Darnelle Colour Vocabulary"@en, "Farbvokabular von Darnelle"@de ;
     dct:creator "Darnelle Melvin"@en ;
-    dct:created "2021-11-02"^^xsd:date ;
+    dct:created "2024-11-25"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept colour:violet, colour:blue .
 
