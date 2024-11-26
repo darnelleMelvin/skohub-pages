@@ -1,0 +1,140 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vann: <http://purl.org/vocab/vann/>.
+@prefix aprod: <https://w3id.org/>.
+
+aprod:
+    a skos:ConceptScheme;
+    dct:description "A vocabulary for audio production equipment."@en;
+    dct:title "Recording Equipment"@en;
+    dct:creator "Darnelle Melvin"@en;
+    vann:preferredNamespaceUri aprod:;
+    skos:hasTopConcept aprod:3aef4 .
+aprod:1146a
+    a skos:Concept;
+    skos:broader aprod:9087c;
+    skos:inScheme aprod:;
+    skos:narrower aprod:819ca, aprod:8dc20, aprod:efae1;
+    skos:prefLabel "Filters"@en.
+aprod:193b7
+    a skos:Concept;
+    skos:broader aprod:3aef4;
+    skos:inScheme aprod:;
+    skos:narrower aprod:32545, aprod:9087c;
+    skos:prefLabel "Effects processors"@en.
+aprod:19692
+    a skos:Concept;
+    skos:broader aprod:32545;
+    skos:inScheme aprod:;
+    skos:prefLabel "Equalizer"@en.
+aprod:2fefc
+    a skos:Concept;
+    skos:broader aprod:64dc7;
+    skos:inScheme aprod:;
+    skos:prefLabel "Digital mixer"@en.
+aprod:32545
+    a skos:Concept;
+    skos:broader aprod:193b7;
+    skos:inScheme aprod:;
+    skos:narrower aprod:19692, aprod:8fc45, aprod:c6216;
+    skos:prefLabel "Dynamic effects"@en.
+aprod:3aef4
+    a skos:Concept;
+    skos:narrower
+        aprod:193b7, aprod:555bd, aprod:5a8a8, aprod:64dc7, aprod:b9bd7,
+        aprod:c405e;
+    skos:prefLabel "Audio equipment"@en;
+    skos:topConceptOf aprod: .
+aprod:555bd
+    a skos:Concept;
+    skos:broader aprod:3aef4;
+    skos:inScheme aprod:;
+    skos:prefLabel "Samplers"@en.
+aprod:5a8a8
+    a skos:Concept;
+    skos:broader aprod:3aef4;
+    skos:inScheme aprod:;
+    skos:prefLabel "Synthesizers"@en.
+aprod:5b497
+    a skos:Concept;
+    skos:broader aprod:64dc7;
+    skos:inScheme aprod:;
+    skos:prefLabel "Analog mixer"@en.
+aprod:5ff5c
+    a skos:Concept;
+    skos:broader aprod:9087c;
+    skos:inScheme aprod:;
+    skos:prefLabel "Reverb"@en.
+aprod:64dc7
+    a skos:Concept;
+    skos:broader aprod:3aef4;
+    skos:inScheme aprod:;
+    skos:narrower aprod:2fefc, aprod:5b497, aprod:b0f9e;
+    skos:prefLabel "Mixing consoles "@en.
+aprod:6c463
+    a skos:Concept;
+    skos:broader aprod:b9bd7;
+    skos:inScheme aprod:;
+    skos:prefLabel "Direct-drive turntable"@en.
+aprod:74661
+    a skos:Concept;
+    skos:broader aprod:9087c;
+    skos:inScheme aprod:;
+    skos:prefLabel "Delay"@en.
+aprod:782bf
+    a skos:Concept;
+    skos:broader aprod:9087c;
+    skos:inScheme aprod:;
+    skos:prefLabel "Echo"@en.
+aprod:819ca
+    a skos:Concept;
+    skos:broader aprod:1146a;
+    skos:inScheme aprod:;
+    skos:prefLabel "High-pass filter"@en.
+aprod:8dc20
+    a skos:Concept;
+    skos:broader aprod:1146a;
+    skos:inScheme aprod:;
+    skos:prefLabel "Band-pass filter"@en.
+aprod:8fc45
+    a skos:Concept;
+    skos:broader aprod:32545;
+    skos:inScheme aprod:;
+    skos:prefLabel "Pre-amplifier"@en.
+aprod:9087c
+    a skos:Concept;
+    skos:broader aprod:193b7;
+    skos:inScheme aprod:;
+    skos:narrower aprod:1146a, aprod:5ff5c, aprod:74661, aprod:782bf;
+    skos:prefLabel "Time-based effects"@en.
+aprod:b0f9e
+    a skos:Concept;
+    skos:broader aprod:64dc7;
+    skos:inScheme aprod:;
+    skos:prefLabel "Control surface"@en.
+aprod:b9bd7
+    a skos:Concept;
+    skos:broader aprod:3aef4;
+    skos:inScheme aprod:;
+    skos:narrower aprod:6c463, aprod:f4352;
+    skos:prefLabel "Turntables"@en.
+aprod:c405e
+    a skos:Concept;
+    skos:broader aprod:3aef4;
+    skos:inScheme aprod:;
+    skos:prefLabel "Drum machines"@en.
+aprod:c6216
+    a skos:Concept;
+    skos:broader aprod:32545;
+    skos:inScheme aprod:;
+    skos:prefLabel "Compressor"@en.
+aprod:efae1
+    a skos:Concept;
+    skos:broader aprod:1146a;
+    skos:inScheme aprod:;
+    skos:prefLabel "Low-pass filter"@en.
+aprod:f4352
+    a skos:Concept;
+    skos:broader aprod:b9bd7;
+    skos:inScheme aprod:;
+    skos:prefLabel "Belt-drive turntable"@en.
