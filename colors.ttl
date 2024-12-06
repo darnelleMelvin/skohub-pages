@@ -17,8 +17,14 @@ colour:violet a skos:Concept ;
 
 colour:blue a skos:Concept ;
     skos:prefLabel "Blau"@de, "blue"@en ;
+    skos:narrower colour:sky_blue ;
     skos:topConceptOf colour: .
 
 colour:black a skos:Concept ;
     skos:prefLabel "black"@en ;
+    skos:topConceptOf colour: .
+
+colour:sky_blue a skos:Concept ;
+    skos:prefLabel "Sky blue"@en ;
+    skos:broader colour:blue ;
     skos:topConceptOf colour: .
