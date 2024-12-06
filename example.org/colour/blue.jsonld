@@ -5,6 +5,14 @@
     "en": "blue",
     "de": "Blau"
   },
+  "narrower": [
+    {
+      "id": "https://example.org/colour/sky_blue",
+      "prefLabel": {
+        "en": "Sky blue"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://example.org/colour/",

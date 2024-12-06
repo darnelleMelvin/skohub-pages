@@ -1,18 +1,16 @@
 {
-  "id": "https://example.org/colour/blue",
+  "id": "https://example.org/colour/sky_blue",
   "type": "Concept",
   "prefLabel": {
-    "en": "blue",
-    "de": "Blau"
+    "en": "Sky blue"
   },
-  "narrower": [
-    {
-      "id": "https://example.org/colour/sky_blue",
-      "prefLabel": {
-        "en": "Sky blue"
-      }
+  "broader": {
+    "id": "https://example.org/colour/blue",
+    "prefLabel": {
+      "en": "blue",
+      "de": "Blau"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://example.org/colour/",
