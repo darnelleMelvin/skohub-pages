@@ -8,7 +8,7 @@ colour: a skos:ConceptScheme ;
     dct:creator "Darnelle Melvin"@en ;
     dct:created "2024-11-25"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept colour:violet, colour:blue, colour:black, colour:sky_blue .
+    skos:hasTopConcept colour:violet, colour:blue, colour:black .
 
 colour:violet a skos:Concept ;
     skos:prefLabel "Violett"@de, "violet"@en;
